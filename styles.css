@@ -1,0 +1,163 @@
+body{
+   background-image: url("image/Hero Section(Desktop) (1).png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+header{
+    margin-top: 16px;
+}
+.logo{
+    padding: 0;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: orangered;
+}
+.button1{
+    color: #fff;
+    background-color: orangered;
+    border-radius: 16px;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 20px;
+
+
+
+}
+img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+a{
+    padding: 20px;
+    margin-top: 5px;
+
+}
+.button2{
+    color: orangered;
+   border: 1px solid orangered;
+    border-radius: 16px;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 20px;
+
+    
+}
+span{
+    color: orangered;
+}
+#sectionuno{
+    padding: 20px;
+
+}
+h3{
+    color: #fff;
+}
+p{
+    color: #fff;
+
+}
+.cartes:hover{
+    transform: scale(1.2);
+    border: 1px solid orangered;
+}
+.card:hover:hover{
+   
+        transform: translateY(-10px); /* Moves the image up slightly */
+        filter: brightness(1.2); 
+}
+h2{
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.flexible{
+    display: flex ;
+    justify-content: space-around;
+    margin-left: 10px;
+
+}
+.flexible img:hover{
+    transform: scale(1.2);
+    border: 1px solid orangered;
+    border-radius: 16px;
+
+}
+#quatro h3{
+    color: #fff;
+}
+.bt1{
+color: #fff;
+background-color: orangered;
+border: 1px solid white;
+text-align: center;
+width: 100%;
+border-radius: 16px;
+margin: 10px;
+text-align: center;
+}
+.bt2{
+    border: 1px solid orangered;
+    color: orangered;
+    border-radius: 16px;
+    background-color: #181724;
+    width:100%;
+    text-align: center;
+    margin: 10px;
+
+
+}
+form{
+    background-color: #181724;
+    padding: 10px;
+    
+}
+#cinq h6{
+    color:#fff ;
+
+}
+form input{
+    color: #fff;
+    background-color: #181724;
+    border: 1px solid white;
+    border-radius: 16px;
+    width:100%;
+    padding: 10px;
+
+}
+form input ::placeholder{
+    color: #fff;
+}
+label{
+    color: #fff;
+}
+.glob{
+    border: 1px solid purple;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 10px white;
+}
+.glob:hover{
+    transform: translateY(10px);
+
+}
+.txt{
+    padding: 10px;
+    
+}
