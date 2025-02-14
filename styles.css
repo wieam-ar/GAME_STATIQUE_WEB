@@ -77,7 +77,7 @@ p{
 }
 .card:hover:hover{
    
-        transform: translateY(-10px); /* Moves the image up slightly */
+        transform: translateY(-10px); 
         filter: brightness(1.2); 
 }
 h2{
@@ -161,3 +161,64 @@ label{
     padding: 10px;
     
 }
+
+#otto{
+    padding: 10px;
+}
+.slider-container {
+    overflow-x: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+  }
+  .slider {
+    display: inline-flex;
+    transition: transform 0.5s linear;
+  }
+  .game-card {
+    min-width: 220px;
+    margin: 0 10px;
+    text-align: center;
+    background-color: rgba(21, 21, 46, 0.562); 
+    color: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 0 4px 5px rgba(255, 255, 255, 0.329); 
+  }
+  .game-card:hover {
+    transform: translateY(-10px); 
+    
+  }
+  #otto img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .card-box {
+    background-color: rgba(12, 12, 37, 0.582);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 4px 2px rgba(255, 255, 255, 0.5);
+    text-align: center;
+  }
+  .form-section {
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 25px rgba(255, 100, 50, 0.6);
+  }
+  
+  .form-section form{
+    padding: 10px;
+    height: 100%;
+  }
+  h2 strong{
+    color: #fff;
+  }
+  footer{
+    background-color: #181724;
+    color: #fff;
+  }
+  footer h4 {
+    color: orangered;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
